@@ -7,6 +7,10 @@
 // console.log(3
 //     +3
 // )              // not good for code readability
+//code readability should be high
+
 
 console.log("blu")
+
+
 
