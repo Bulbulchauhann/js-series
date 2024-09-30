@@ -12,5 +12,23 @@
 
 console.log("blu")
 
+//datatypes
+let name = "Bulbul"
+let age = 24
+let isMarried = false
 
+//number => 2 to power 53
+//bigint => used for big numbers (Stock, fb, reddit)
+//string => ""
+//boolean => true/false
+//null => standalone value
+//undefined => 
+//symbol => unique(used mainly in react)
+
+//object
+
+// console.log(typeof "bulbul")
+console.log(typeof 233)
+console.log(typeof null)
+console.log(typeof undefined);
 
