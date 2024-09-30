@@ -14,5 +14,5 @@ console.table([accEmail, accPassword, accCity, accState])
 
 /*
 Prefer not to user var
-because of issue in block and functional scope
+because of issue in block and functional scope 
 */
