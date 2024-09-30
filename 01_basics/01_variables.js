@@ -13,5 +13,6 @@ console.log(accId)
 console.table([accEmail, accPassword, accCity, accState])
 
 /*
-Prefer not
+Prefer not to user var
+because of issue in block and functional scope
 */
