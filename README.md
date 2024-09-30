@@ -1,1 +1,1 @@
-# js-series
+#Personal Repository to Learn and Revise JAVASCRIPT.
