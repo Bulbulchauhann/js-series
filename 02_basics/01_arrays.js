@@ -6,5 +6,5 @@ const myHeroes = ["Flying Jatt", "G One", "shaktiman"]
 console.log(myArray[1]);
 console.log(myHeroes);
 
-//array methods
+//array methodss
  
