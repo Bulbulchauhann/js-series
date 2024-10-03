@@ -37,6 +37,38 @@ const obj4 = Object.assign({}, obj1, obj2) //{} is target, and obj1, obj2 are so
 console.log(obj3);
 console.log(obj4); //option parameter, but recommended, values get combined, gives exact value
 
+console.log({...obj1, ...obj2}); //spread operator, most useful and easy
+
+//when values are coming from database
+
+const users1 = [
+    {
+        id : 1,
+        name : "Raj"
+    },
+    {
+        id : 2,
+        name : "Raju"
+    },
+    {
+        id : 3,
+        name : "Raja"
+    }
+]
+
+users1[1].id
+console.log(twtUser);
+
+console.log(Object.keys(twtUser));
+console.log(Object.values(twtUser));
+console.log(Object.entries(twtUser));
+
+console.log(twtUser.hasOwnProperty("isLogged"));
+
+
+
+
+
 
 
 
