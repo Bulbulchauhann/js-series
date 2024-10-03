@@ -65,6 +65,33 @@ console.log(Object.entries(twtUser));
 
 console.log(twtUser.hasOwnProperty("isLogged"));
 
+// object destructuring
+const course = {
+    courseName : "JavaScript",
+    price : "999",
+    courseTeacher : "Pooja"
+}
+
+// course.courseInstructure
+
+// const {courseTeacher} = course
+const {courseTeacher: Teacher} = course
+// console.log(courseTeacher);
+console.log(Teacher);
+
+//JSON data in API
+// {
+//     "name" : "Bulbul",
+//     "age" : 24,
+//     "course" : "ADIT"
+// }
+
+[
+    {},
+    {},
+    {},
+]
+
 
 
 
