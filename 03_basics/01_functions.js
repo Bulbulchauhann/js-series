@@ -31,8 +31,9 @@ console.log("Result: ", result);
 add(12, "a");
 add(12, null);
 
-function loginUserMsg(userName) {
-    if (userName === undefined){
+function loginUserMsg(userName= "sam") {
+    // if (userName === undefined){ //OR
+    if (!userName){
         console.log("Please provide a userName");        
         return
     }
