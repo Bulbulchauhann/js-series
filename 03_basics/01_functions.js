@@ -19,13 +19,16 @@ sayMyName();
   
 // }
 
+
 function add(num1, num2){
     return num1 + num2
 }
 
 
 const result = add(3, 1000);
-console.log(result);
+console.log("Result: ", result);
 
 add(12, "a");
 add(12, null);
+
+
