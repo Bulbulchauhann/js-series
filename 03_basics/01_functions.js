@@ -20,15 +20,25 @@ sayMyName();
 // }
 
 
-function add(num1, num2){
+function add(num1, num2){ //paraeter
     return num1 + num2
 }
 
 
-const result = add(3, 1000);
+const result = add(3, 1000); //argument
 console.log("Result: ", result);
 
 add(12, "a");
 add(12, null);
 
+function loginUserMsg(userName) {
+    if (userName === undefined){
+        console.log("Please provide a userName");        
+        return
+    }
+    return `Hello ${userName}, you just logged in.`
+}
+
+console.log(loginUserMsg("Bulbul"));
+console.log(loginUserMsg());
 
