@@ -43,3 +43,25 @@ function loginUserMsg(userName= "sam") {
 console.log(loginUserMsg("Bulbul"));
 console.log(loginUserMsg());
 
+//shopping cart
+// function calculateCardtPrice (...num1){ //rest operator / spread
+function calculateCardtPrice (val1, val2, ...num1){ //will ignore values mentioned
+    return num1
+}
+ console.log(calculateCardtPrice(200,400,500));
+ 
+const user = {
+    userName : "bulbul",
+    price : 100
+}
+
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.userName} and the price is ${anyObject.price}`);
+    
+}
+
+handleObject(user)
+
+const myNewArray = [200, 300, 400, 500]
+
+functionreturnSecondValuse
