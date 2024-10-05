@@ -64,4 +64,4 @@ handleObject(user)
 
 const myNewArray = [200, 300, 400, 500]
 
-functionreturnSecondValuse
+functionreturnSecondValuses
