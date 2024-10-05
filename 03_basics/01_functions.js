@@ -44,11 +44,11 @@ console.log(loginUserMsg("Bulbul"));
 console.log(loginUserMsg());
 
 //shopping cart
-// function calculateCardtPrice (...num1){ //rest operator / spread
-function calculateCardtPrice (val1, val2, ...num1){ //will ignore values mentioned
+// function calculateCartPrice (...num1){ //rest operator / spread
+function calculateCartPrice (val1, val2, ...num1){ //will ignore values mentioned
     return num1
 }
- console.log(calculateCardtPrice(200,400,500));
+ console.log(calculateCartPrice(200,400,500));
  
 const user = {
     userName : "bulbul",
